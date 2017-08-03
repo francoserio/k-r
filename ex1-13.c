@@ -14,7 +14,7 @@ int main() {
 			state = OUT;
 			// printf("%d\n", length);
 			if (length > 24) {
-				wordLength[25] = wordLength[25] + 1;
+				wordLength[25-1] = wordLength[25-1] + 1;
 			} else {
 				wordLength[length] = wordLength[length] + 1;
 			}
